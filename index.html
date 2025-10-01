@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Моя первая страница — Матрица</title>
+  <style> body{font-family:system-ui, sans-serif;max-width:900px;margin:0 auto;padding:20px;line-height:1.6}
+  header,main,footer{margin:16px 0} nav a{margin-right:8px} img{border-radius:8px} table{border-collapse:collapse}
+  td,th{border:1px solid #ccc;padding:6px} blockquote{border-left:4px solid #6ea8fe;padding:8px 12px;background:#f6f8fa;border-radius:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Живой (Alive)</h1>
+    <p>"Живой" - едва ли не первая попытка в отечественном кинематографе показать всерьез, что "будет после". Точно всерьез./Рецензия 2007 года</p>
+    <nav>
+      <a href="#description">Описание</a>| 
+      <a href="#info">Информация</a>| 
+      <a href="#actors">Актеры</a>| 
+      <a href="#poster">Постер</a>|
+      <a href="#links">Ссылки</a>|
+      <a href="#Money">Сборы</a>|
+      <a href="#Quote">Цитата</a>|
+      <a href="#Trailer">Трейлер</a>|
+    </nav>
+  </header>
+
+  <main>
+    <section id="description">
+      <h2>Описание</h2>
+      <p>Кир – вернувшийся с чеченской войны солдат. Там, на войне он оставил полноги, и всех своих друзей-сослуживцев. Они спасли его ценой собственных жизней.
+         Здесь Кира ждет мать и любимая девушка. Казалось, что та война для него окончилась, но эхо войны все еще не покидает голову парня. Пытаясь наладить жизнь,
+         он не может избавиться от чувства вины. Призраки его погибших друзей ходят за ним по пятам. Что он должен сделать, чтобы они нашли покой? Может быть, ему 
+         просто стоит простить себя..?</p>
+    </section>
+
+    <section id="info">
+      <h2>Основная информация</h2>
+      <p><strong>Год выпуска:</strong> 2006</p>
+      <p><strong>Режиссер:</strong> Александр Валединский</p>
+       <p><strong>Жанр:</strong> Драма, детектив, военный</p>
+      <p><strong>Длительность:</strong> 98 минут</p>
+    </section>
+
+    <section id="actors">
+      <h2>Главные актеры</h2>
+      <ul>
+        <li>Андрей Чадов — Кир, солдат-контрактник</li>
+        <li>Алексей Чадов — Священник</li>
+        <li>Максим Лагашкин — Никич, призрак</li>
+        <li>Владимир Епифанцев — Игорь, призрак</li>
+        <a href="actors.html">Подробнее об актерах</a>
+      </ul>
+      <h2>Почему стоит посмотреть</h2>
+      <ol>
+        <li>"Эффект присутствия"</li>
+        <li>Глубокий психоголизм и этнические вопросы</li>
+        <li>Авторское, некоммерческое кино</li>
+      </ol>
+    </section>
+
+    <section id="poster">
+      <h2>Постер фильма</h2>
+      <img src="https://en-images.kinorium.com/movie/1080/397414.jpg?1529127202" alt="Постер фильма Живой" width="300">
+    </section>
+
+    <section id="links">
+      <h2>Дополнительная информация</h2>
+      <p><a href="https://www.kinopoisk.ru/film/256503/?ysclid=mg7r303oe9580516322&utm_referrer=yandex.ru" target="_blank">Страница на Кинопоиске</a></p>
+      <p><a href="https://ru.wikipedia.org/wiki/%D0%96%D0%B8%D0%B2%D0%BE%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)" target="_blank">Статья в Википедии</a></p>
+    </section>
+
+    <section id="Money">
+      <h2>Бокс-офис</h2>
+      <table>
+        <tr><th>Страна</th><th>Сборы</th></tr>
+        <tr><td>Россия</td><td>$3 214 998</td></tr>
+        <tr><td>Мир</td><td>$3 216 061</td></tr>
+      </table>
+    </section>
+
+    <section id="Quote">
+      <h2>Известная цитата</h2>
+      <blockquote>
+        "Здравствуй, мать, вернулся я не весь!Вот нога моя, на гвоздь ее повесь!" <br>— <em>Кир</em>
+      </blockquote>
+    </section>
+    <section id="Trailer">
+        <iframe width="560" height="315" 
+        src="https://vkvideo.ru/video-214088442_456239137" 
+        frameborder="0" allowfullscreen></iframe>
+    </section>
+    <form>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="review">Ваш отзыв:</label>
+        <textarea id="review" name="review"></textarea>
+
+        <button type="submit">Отправить</button>
+    </form>
+  </main>
+
+  <footer><hr><p>© 2025 Страница созданна в учебных и практических целях</p></footer>
+</body>
+</html>
